@@ -1,0 +1,62 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+}
+.root_container {
+    margin: 5% 10% 0 10%;
+}
+.main_container {
+
+}
+.feed_container {
+  margin: 0 0 7px 0;
+  display: flex;
+}
+img {
+  height: 135px;
+  width: 250px;
+  border: 1px solid #CCC;
+}
+.feed_text_container {
+  margin: 12px 15px;
+}
+.feed_title {
+  margin: 0;
+  height: 25px;
+  overflow: hidden;
+}
+.feed_text {
+  margin: 5px 0 10px 0;
+  max-height: 65px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.feed_source {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+}
